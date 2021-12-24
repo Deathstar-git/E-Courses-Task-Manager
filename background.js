@@ -1,6 +1,6 @@
-chrome.runtime.onMessage.addListener(
-  function(request, sender, sendResponse) {
-var a = request.site; // данные о сайте
-var b = request.time; // данные о проведенном времени
-// тут делаем с этими данными что хотим.
-  });
+let color = '#3aa757';
+
+chrome.runtime.onInstalled.addListener(() => {
+  chrome.storage.sync.set({ color });
+  console.log('Default background color set to %cgreen', `color: ${color}`);
+});

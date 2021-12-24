@@ -1,13 +1,16 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
   <head>
-    <title>Е-курсы|Менеджер задач</title>
-	<link href="css.css" rel="stylesheet" type="text/css"/><!-- Подключаю стили-->
+    <link rel="stylesheet" href="css.css">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   </head>
-  <body>
-  <div id="task_info">
-  	<p id="user_info"></p>
-  </div>
-    <script src="popup.js"></script><!-- скрипт, выполняющийся при нажатии на иконку расширения-->
+  <body id="task_info">
+    <h1 class="info">Пожалуйста,войдите</h1>
+    <ol id="subjects">
+    </ol>
+    <ol id="tasks">
+    </ol>
+    <button id="login_link"><a href='https://e.sfu-kras.ru/login/index.php' target="_blank">Зайти на е-курсы</a></button>
+    <script src="popup.js"></script>
   </body>
-</html>
+  </html>
