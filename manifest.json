@@ -3,7 +3,7 @@
   "name": "Е-курсы|Просмотр задач",
   "description": "Отображает все невыполненные задачи на курсах,к которым вы прикреплены",
   "version": "1.0",
-  "permissions": ["storage", "activeTab", "scripting"],
+  "permissions": ["storage", "activeTab", "scripting", "unlimitedStorage"],
   "options_page": "options.html",
   "icons": {
   	"16": "footer-sfu-logo.png",
